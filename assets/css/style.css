@@ -1,0 +1,21 @@
+#body {
+  background-color: #212529;}
+  #body1 {
+    background-color: white}
+    #center {
+      margin-top:auto;
+      margin-bottom:auto;
+      text-align:center;
+  }
+
+  .imagemm{
+    width: 50%;
+
+  }
+
+  @media (max-width: 375px)
+  {
+    .imagee{
+      font-size: 20px;
+    }
+  }

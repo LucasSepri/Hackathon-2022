@@ -1,0 +1,23 @@
+// Here are the configuration styles
+
+* {
+    // example: WebSite source
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 0;
+}
+
+body {
+    background-color: $cinza-claro;
+}
+
+.fixo {
+
+    overflow: hidden;
+    overflow-x: hidden;
+}
+#center {
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+  }

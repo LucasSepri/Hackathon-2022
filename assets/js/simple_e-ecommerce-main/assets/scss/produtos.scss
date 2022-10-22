@@ -1,0 +1,28 @@
+.produtos{
+    margin: 30px 0;
+    .produtos-container{
+        margin: 30px 0;
+        color: $cinza;
+            &:hover {
+                color: initial;
+            }
+
+        .produtos-itens{
+            h2{
+                font-size: 19px;
+                margin: 10px 0 0;
+            }
+            .produtos-stars{
+                svg{
+                    fill: $amarelo;
+                    width: 13px;
+                    height: 12px;
+                }
+            }
+
+            .produtos-precos{
+                font-size: 16px;
+            }
+        }
+    }
+}
